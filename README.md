@@ -1,3 +1,14 @@
+# Test and Run solution
+
+1. Run unit tests using `make test`
+2. Run solution using `make run`
+
+# Notes:
+- Unit tests are very little I decided to skip full UTs implementation as it is a test task
+- Some of the countries show up with vaccinated population over 100%  which is impossible (ex. Gibraltar) This happens
+because we're using outdated population data
+
+
 # Task
 - From the country populations data (data/country_populations.csv) export each country population (everyone, that DON'T start with an "OWID_" prefix) for 2020. 
 
