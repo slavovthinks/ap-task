@@ -1,0 +1,7 @@
+*.db
+.venv
+.DS_store
+.idea
+.coverage
+*.pyc
+.pytest_cache
